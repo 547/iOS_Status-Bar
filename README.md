@@ -3,7 +3,7 @@
  根据状态栏获取网络状态，可以区分2G、3G、4G、WIFI，系统的方法，比较快捷。稍微不爽的就是万一连接的WIFI没有联网的话。
  手机状态栏：
  
- -(void)getNetworkStatuFromStatusBar
+tap tap  -(void)getNetworkStatuFromStatusBar<br>
  {
  UIApplication *app = [UIApplication sharedApplication] ;
  //获取状态栏statusBar的前景视图foregroundView的所有子视图
